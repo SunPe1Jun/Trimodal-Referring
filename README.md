@@ -70,4 +70,4 @@ bash closed_models/run_smoke.sh --evaluate-only
 
 ## 大型资产
 
-Git 不包含 V3dMD 数据、视频、模型权重、抽取帧、闭源 raw 响应、生成图片和完整输出。闭源基线约 25 GB，保存在服务器的 `closed_models/outputs/`；论文证据的小型汇总在 `paper_experiment_evidence/`。不要用文件名或旧 README 推断实验已经完成；以 `progress.json`、`run_history.json`、`eval/` 和本仓库进度文档为准。
+Git 不包含 V3dMD 数据、视频、模型权重、抽取帧、闭源 raw 响应、生成图片和完整输出。闭源基线约 27 GB，保存在服务器的 `closed_models/outputs/`；论文证据的小型汇总在 `paper_experiment_evidence/`。不要用文件名或旧 README 推断实验已经完成；以 `progress.json`、`run_history.json`、`eval/` 和本仓库进度文档为准。

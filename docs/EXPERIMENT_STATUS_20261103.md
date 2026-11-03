@@ -7,7 +7,7 @@
 - 仓库：`D:\spj\Trimodal-Referring`（服务器 Linux 路径在产物中写作 `/media/kunyu/16TB/spj/Trimodal-Referring`）。
 - 当前分支：`main`，恢复时 HEAD 为 `4b38f1e61eff5579422f75b8e32aae883dc3d21d`，与 GitHub `origin/main` 一致。
 - 本次整理前，工作区只有 6 个跟踪文件有真实内容修改（共 22 行新增），其余约 300 个“修改”是 NTFS/WSL 文件权限位变化，不是实验改动。
-- 闭源基线产物位于 `closed_models/outputs/`，约 25 GB，已被 `.gitignore` 排除。本文只记录路径、规模、指标和限制，不把 raw 响应、图片或完整预测提交到 Git。
+- 闭源基线产物位于 `closed_models/outputs/`，约 27 GB，已被 `.gitignore` 排除。本文只记录路径、规模、指标和限制，不把 raw 响应、图片或完整预测提交到 Git。
 - 旧的 `docs/REBUTTAL_OPENAI_PLAN_20261026.md` 是方案与协议审计，不是最终结果记录；本轮实际执行状态以本文和 `closed_models/FULL_BASELINE_REPORT_20261103.md` 为准。
 
 ## 1. 当前三个 setting 的实际协议
