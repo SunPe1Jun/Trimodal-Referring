@@ -1,0 +1,11 @@
+{
+  "base_url": "https://www.taomu.xyz/v1",
+  "model": "gpt-6.1-sol",
+  "api_key_env": "TRIMODAL_OPENAI_API_KEY",
+  "timeout_seconds": 180,
+  "max_attempts": 2,
+  "concurrency": 3,
+  "image_detail": "high",
+  "max_image_edge": 1920,
+  "max_output_tokens": 4096
+}

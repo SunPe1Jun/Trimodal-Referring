@@ -257,6 +257,8 @@ def repair_json_array_text(text: str) -> str:
         if stripped.count("[") == stripped.count("]") + 1 and stripped.endswith("}"):
             stripped += "\n]"
         return stripped
+    if stripped.startswith("{") and stripped.endswith("}"):
+        return "[" + stripped + "]"
     pieces = []
     for line in stripped.splitlines():
         cleaned = line.strip().rstrip(",")

@@ -1339,6 +1339,9 @@ def repair_json_array_if_needed(raw_text: str) -> str:
         raise GroundingRunError("Input event JSON file is empty.")
     if stripped.startswith("[") and stripped.count("[") == stripped.count("]") + 1 and stripped.endswith("}"):
         return stripped + "\n]"
+    # Released scene5/408 omits the outer array; keep strict JSON validation.
+    if stripped.startswith("{") and stripped.endswith("}"):
+        return "[" + stripped + "]"
     return stripped
 
 

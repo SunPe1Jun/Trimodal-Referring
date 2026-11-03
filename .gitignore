@@ -59,3 +59,10 @@ internvl/outputs*/
 # Qwen3-VL-8B generated outputs
 qwen8/logs/
 qwen8/outputs*/
+
+# Closed-model private credentials and generated requests/responses
+closed_models/outputs/
+closed_models/*.local.json
+.env
+.env.*
+!.env.example

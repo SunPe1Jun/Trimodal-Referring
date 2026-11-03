@@ -1,0 +1,370 @@
+{
+  "main_metric_checks": [
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "micro_recall",
+      "recomputed": 0.5169109357384442,
+      "archived": 0.5169109357384442,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "micro_f1",
+      "recomputed": 0.5398563522901213,
+      "archived": 0.5398563522901212,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "exact",
+      "recomputed": 0.32875,
+      "archived": 0.32875,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "hit_all",
+      "recomputed": 0.77975,
+      "archived": 0.77975,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "macro_set_f1",
+      "recomputed": 0.5656979978354979,
+      "archived": 0.5656979978355006,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-8B",
+      "metric": "micro_recall",
+      "recomputed": 0.3947012401352875,
+      "archived": 0.3947012401352875,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-8B",
+      "metric": "micro_f1",
+      "recomputed": 0.46786048376319656,
+      "archived": 0.4678604837631966,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-8B",
+      "metric": "exact",
+      "recomputed": 0.23775,
+      "archived": 0.23775,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-8B",
+      "metric": "hit_all",
+      "recomputed": 0.67325,
+      "archived": 0.67325,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "Qwen3-VL-8B",
+      "metric": "macro_set_f1",
+      "recomputed": 0.4804342712842713,
+      "archived": 0.48043427128427757,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "InternVL3-38B",
+      "metric": "micro_recall",
+      "recomputed": 0.4479143179255919,
+      "archived": 0.4479143179255919,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "InternVL3-38B",
+      "metric": "micro_f1",
+      "recomputed": 0.48931584457171007,
+      "archived": 0.48931584457171007,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "InternVL3-38B",
+      "metric": "exact",
+      "recomputed": 0.25925,
+      "archived": 0.25925,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "InternVL3-38B",
+      "metric": "hit_all",
+      "recomputed": 0.7215,
+      "archived": 0.7215,
+      "pass": true
+    },
+    {
+      "experiment": "experiment1",
+      "model": "InternVL3-38B",
+      "metric": "macro_set_f1",
+      "recomputed": 0.5104822774447775,
+      "archived": 0.5104822774447821,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "temporal_f1",
+      "recomputed": 0.7347507842453816,
+      "archived": 0.7347507842453816,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "point100_f1",
+      "recomputed": 0.2496804926222842,
+      "archived": 0.24968049262228417,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "joint100_f1",
+      "recomputed": 0.20669222725688394,
+      "archived": 0.20669222725688394,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "point200_f1",
+      "recomputed": 0.4398745207389334,
+      "archived": 0.43987452073893346,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "joint200_f1",
+      "recomputed": 0.3673753921226908,
+      "archived": 0.3673753921226908,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-8B",
+      "metric": "temporal_f1",
+      "recomputed": 0.7461353082936578,
+      "archived": 0.7461353082936578,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-8B",
+      "metric": "point100_f1",
+      "recomputed": 0.23499676717804033,
+      "archived": 0.23499676717804033,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-8B",
+      "metric": "joint100_f1",
+      "recomputed": 0.20125786163522014,
+      "archived": 0.20125786163522014,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-8B",
+      "metric": "point200_f1",
+      "recomputed": 0.423440898136719,
+      "archived": 0.423440898136719,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "Qwen3-VL-8B",
+      "metric": "joint200_f1",
+      "recomputed": 0.3668959031328984,
+      "archived": 0.3668959031328984,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "InternVL3-38B",
+      "metric": "temporal_f1",
+      "recomputed": 0.7329806406604267,
+      "archived": 0.7329806406604267,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "InternVL3-38B",
+      "metric": "point100_f1",
+      "recomputed": 0.12278355909540142,
+      "archived": 0.12278355909540142,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "InternVL3-38B",
+      "metric": "joint100_f1",
+      "recomputed": 0.09766874018952386,
+      "archived": 0.09766874018952389,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "InternVL3-38B",
+      "metric": "point200_f1",
+      "recomputed": 0.3326550781931283,
+      "archived": 0.33265507819312834,
+      "pass": true
+    },
+    {
+      "experiment": "experiment2",
+      "model": "InternVL3-38B",
+      "metric": "joint200_f1",
+      "recomputed": 0.27010057554793326,
+      "archived": 0.27010057554793326,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "anchor_precision",
+      "recomputed": 0.42556440178863564,
+      "archived": 0.42556440178863564,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "anchor_recall",
+      "recomputed": 0.4399098083427283,
+      "archived": 0.4399098083427283,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "anchor_f1",
+      "recomputed": 0.4326182160873663,
+      "archived": 0.4326182160873663,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "exact",
+      "recomputed": 0.0185,
+      "archived": 0.0185,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-30B-A3B",
+      "metric": "margin_f1_1.0",
+      "recomputed": 0.25029085942637463,
+      "archived": 0.25029085942637463,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-8B",
+      "metric": "anchor_precision",
+      "recomputed": 0.4262313992386665,
+      "archived": 0.4262313992386665,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-8B",
+      "metric": "anchor_recall",
+      "recomputed": 0.4165727170236753,
+      "archived": 0.4165727170236753,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-8B",
+      "metric": "anchor_f1",
+      "recomputed": 0.42134671303951193,
+      "archived": 0.42134671303951193,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-8B",
+      "metric": "exact",
+      "recomputed": 0.0225,
+      "archived": 0.0225,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "Qwen3-VL-8B",
+      "metric": "margin_f1_1.0",
+      "recomputed": 0.2439887581971479,
+      "archived": 0.2439887581971479,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "InternVL3-38B",
+      "metric": "anchor_precision",
+      "recomputed": 0.433682492177935,
+      "archived": 0.433682492177935,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "InternVL3-38B",
+      "metric": "anchor_recall",
+      "recomputed": 0.3594137542277339,
+      "archived": 0.3594137542277339,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "InternVL3-38B",
+      "metric": "anchor_f1",
+      "recomputed": 0.3930707108069786,
+      "archived": 0.3930707108069786,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "InternVL3-38B",
+      "metric": "exact",
+      "recomputed": 0.048,
+      "archived": 0.048,
+      "pass": true
+    },
+    {
+      "experiment": "experiment3",
+      "model": "InternVL3-38B",
+      "metric": "margin_f1_1.0",
+      "recomputed": 0.23096174472649267,
+      "archived": 0.23096174472649267,
+      "pass": true
+    }
+  ],
+  "all_main_metrics_match": true,
+  "same_gt_across_models": {
+    "experiment1": true,
+    "experiment2": true,
+    "experiment3": true
+  }
+}

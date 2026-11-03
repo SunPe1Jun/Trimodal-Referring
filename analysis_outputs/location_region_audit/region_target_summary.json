@@ -1,0 +1,111 @@
+{
+  "anchor_total": 199,
+  "taxonomy_non_object_anchor_total": 37,
+  "object_by_taxonomy_complement": 162,
+  "interaction_total": 4000,
+  "only_object": 2628,
+  "only_non_object": 109,
+  "mixed": 1263,
+  "pending_confirmation": 0,
+  "unknown_anchor_references": [],
+  "by_scene": [
+    {
+      "scene": "scene1",
+      "anchor_total": 22,
+      "object_anchor_count": 12,
+      "non_object_anchor_count": 10,
+      "only_object_interactions": 464,
+      "only_non_object_interactions": 85,
+      "mixed_interactions": 251,
+      "pending_interactions": 0
+    },
+    {
+      "scene": "scene2",
+      "anchor_total": 42,
+      "object_anchor_count": 39,
+      "non_object_anchor_count": 3,
+      "only_object_interactions": 694,
+      "only_non_object_interactions": 0,
+      "mixed_interactions": 106,
+      "pending_interactions": 0
+    },
+    {
+      "scene": "scene3",
+      "anchor_total": 22,
+      "object_anchor_count": 14,
+      "non_object_anchor_count": 8,
+      "only_object_interactions": 396,
+      "only_non_object_interactions": 21,
+      "mixed_interactions": 383,
+      "pending_interactions": 0
+    },
+    {
+      "scene": "scene4_room1",
+      "anchor_total": 19,
+      "object_anchor_count": 19,
+      "non_object_anchor_count": 0,
+      "only_object_interactions": 200,
+      "only_non_object_interactions": 0,
+      "mixed_interactions": 0,
+      "pending_interactions": 0
+    },
+    {
+      "scene": "scene4_room2",
+      "anchor_total": 20,
+      "object_anchor_count": 20,
+      "non_object_anchor_count": 0,
+      "only_object_interactions": 200,
+      "only_non_object_interactions": 0,
+      "mixed_interactions": 0,
+      "pending_interactions": 0
+    },
+    {
+      "scene": "scene4_room3",
+      "anchor_total": 19,
+      "object_anchor_count": 16,
+      "non_object_anchor_count": 3,
+      "only_object_interactions": 180,
+      "only_non_object_interactions": 3,
+      "mixed_interactions": 17,
+      "pending_interactions": 0
+    },
+    {
+      "scene": "scene4_room4",
+      "anchor_total": 28,
+      "object_anchor_count": 25,
+      "non_object_anchor_count": 3,
+      "only_object_interactions": 194,
+      "only_non_object_interactions": 0,
+      "mixed_interactions": 6,
+      "pending_interactions": 0
+    },
+    {
+      "scene": "scene5",
+      "anchor_total": 27,
+      "object_anchor_count": 17,
+      "non_object_anchor_count": 10,
+      "only_object_interactions": 300,
+      "only_non_object_interactions": 0,
+      "mixed_interactions": 500,
+      "pending_interactions": 0
+    }
+  ],
+  "legacy_taxonomy_audit": {
+    "taxonomy_source": "analysis_configs/location_region_anchor_classification.csv",
+    "location_region_anchor_count": 37,
+    "location_region_interaction_count": 1372,
+    "previous_evidence_interaction_count_under_same_taxonomy": 1367,
+    "added_interaction_count": 5,
+    "removed_interaction_count": 0,
+    "added_ids": [
+      "scene4_room3::19",
+      "scene5::131",
+      "scene5::35",
+      "scene5::58",
+      "scene5::9"
+    ],
+    "removed_ids": [],
+    "legacy_1461_reproducible": false,
+    "legacy_1461_note": "The prior 1,461 value has no committed taxonomy and is not reproduced by this explicit classification."
+  }
+}

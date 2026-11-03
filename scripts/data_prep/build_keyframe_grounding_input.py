@@ -266,6 +266,11 @@ def repair_json_array_if_needed(raw_text: str) -> str:
         raise ManifestConversionError("Input multimodal JSON file is empty.")
     if stripped.startswith("[") and stripped.count("[") == stripped.count("]") + 1 and stripped.endswith("}"):
         return stripped + "\n]"
+    # Some released recordings contain comma-separated sample objects without
+    # the outer array (e.g. V3dMD scene5/408). JSON validation below remains
+    # strict: this only supplies the missing container, never sample content.
+    if stripped.startswith("{") and stripped.endswith("}"):
+        return "[" + stripped + "]"
     return stripped
 
 
