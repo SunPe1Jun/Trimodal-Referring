@@ -10,6 +10,8 @@ VR-TriRef 多模态指代定位实验代码。当前论文与 rebuttal 使用以
 
 ## 当前进度
 
+- [五个新增开源模型的实验一、二全量结果（2026-11-27）](open_models/results/2026-11-27/README.md) · [机器可读汇总](open_models/results/2026-11-27/results.json)
+
 - [实验进度与恢复记录（2026-11-03）](docs/EXPERIMENT_STATUS_20261103.md)
 - [gpt-6.1-sol 闭源基线全量记录（2026-11-03）](closed_models/FULL_BASELINE_REPORT_20261103.md)
 - [模型与闭源 runner 使用说明](closed_models/README.md)

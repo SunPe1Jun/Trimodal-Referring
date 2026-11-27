@@ -62,6 +62,8 @@ qwen8/outputs*/
 
 # Closed-model private credentials and generated requests/responses
 closed_models/outputs/
+open_models/outputs/
+!open_models/results/2026-11-27/*.csv
 closed_models/*.local.json
 .env
 .env.*

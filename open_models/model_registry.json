@@ -1,0 +1,22 @@
+[
+  {
+    "repo": "OpenGVLab/InternVL3_5-8B",
+    "revision": "9bb6a56ad9cc69db95e2d4eeb15a52bbcac4ef79"
+  },
+  {
+    "repo": "openbmb/MiniCPM-V-4_5",
+    "revision": "14a2004908140699317e2109e90573c1e6323c36"
+  },
+  {
+    "repo": "allenai/Molmo2-8B",
+    "revision": "e28fa28597e5ec5e0cca2201dd8ab33d48bc4a1b"
+  },
+  {
+    "repo": "lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
+    "revision": "878cde7e04fd962a6082951d8f83083a73fea588"
+  },
+  {
+    "repo": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+  }
+]

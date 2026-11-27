@@ -1,0 +1,426 @@
+{
+  "models": [
+    {
+      "model": "InternVL3_5-8B",
+      "completed_batches": 250,
+      "completed_requests": 8000,
+      "valid_outputs": 8000,
+      "metrics": {
+        "experiment1": {
+          "events": 4000,
+          "tp": 3875,
+          "fp": 3208,
+          "fn": 4995,
+          "micro_f1": 0.48580204350278944,
+          "exact": 0.22575
+        },
+        "experiment2": {
+          "events": 4000,
+          "time_f1": 0.7923028173071384,
+          "point_100_f1": 0.09356455608688137,
+          "point_200_f1": 0.2781586679725759,
+          "joint_100_f1": 0.07397591749726336,
+          "joint_200_f1": 0.23183729907242034,
+          "point_50_f1": 0.026502275738894972,
+          "point_150_f1": 0.1856311574580861,
+          "joint_50_f1": 0.021893184306043673,
+          "joint_150_f1": 0.15198478999827159
+        },
+        "experiment2_declared_space": {
+          "events": 4000,
+          "time_f1": 0.7923028173071384,
+          "point_100_f1": 0.2373682087918419,
+          "point_200_f1": 0.5050411937546812,
+          "joint_100_f1": 0.2109811603387682,
+          "joint_200_f1": 0.44938641470300167,
+          "point_50_f1": 0.07754796335772311,
+          "point_150_f1": 0.3891225442184709,
+          "joint_50_f1": 0.06936682606441205,
+          "joint_150_f1": 0.34579708474966875
+        }
+      },
+      "valid_per_experiment": {
+        "experiment1": 4000,
+        "experiment2": 4000
+      },
+      "generation_protocol": {
+        "model": "InternVL3_5-8B",
+        "family": "internvl",
+        "checkpoint": {
+          "repo": "OpenGVLab/InternVL3_5-8B",
+          "revision": "9bb6a56ad9cc69db95e2d4eeb15a52bbcac4ef79"
+        },
+        "dtype": "bfloat16",
+        "quantization": null,
+        "do_sample": false,
+        "output_budgets": {
+          "experiment1": 1536,
+          "experiment2": 768
+        },
+        "coordinate_policy": "paired_canvas_map",
+        "secondary_policy": "source_or_canvas_map",
+        "torch": "2.5.1+cu121",
+        "transformers": "4.57.1",
+        "source_sha256": {
+          "worker.py": "ffd7fd369f058ea49f665aac9c3da1641648cedc5e95b6b578d5d04c6f6d5059",
+          "adapters.py": "776ff68547b2beba28a07618334e3e0ebf6d0062ec7ec735ad0f3d3432a85fec",
+          "common.py": "e86801198a7092c54e7bc3e7d4514c86191c4a87c20fb4e6b70243eac38c8a97"
+        }
+      },
+      "parser_protocol": {
+        "version": "anchor_schema_compat_v1",
+        "sha256": "29aa39f1beef1e7584647b535f02cdd4c309b6a6f6e84c30f495c88af000afcb",
+        "scope": "experiment1 JSON field compatibility; experiment2 mapping unchanged",
+        "generation_protocol_unchanged": true
+      },
+      "event_table_sha256": "1c7b13ef651b62455bea839282d482847c77d4797d4346078ebb1439506a98ce"
+    },
+    {
+      "model": "MiniCPM-V-4_5",
+      "completed_batches": 250,
+      "completed_requests": 8000,
+      "valid_outputs": 7973,
+      "metrics": {
+        "experiment1": {
+          "events": 4000,
+          "tp": 3805,
+          "fp": 3608,
+          "fn": 5065,
+          "micro_f1": 0.4673585948535282,
+          "exact": 0.226
+        },
+        "experiment2": {
+          "events": 4000,
+          "time_f1": 0.7701443875174663,
+          "point_100_f1": 0.03772706101537028,
+          "point_200_f1": 0.1410107126222636,
+          "joint_100_f1": 0.025151374010246856,
+          "joint_200_f1": 0.10631113181183047,
+          "point_50_f1": 0.008500232883092687,
+          "point_150_f1": 0.0815090824406148,
+          "joint_50_f1": 0.00535631113181183,
+          "joint_150_f1": 0.058570097810898926
+        },
+        "experiment2_declared_space": {
+          "events": 4000,
+          "time_f1": 0.7701443875174663,
+          "point_100_f1": 0.1688402421984164,
+          "point_200_f1": 0.45016301816488125,
+          "joint_100_f1": 0.15579878900791802,
+          "joint_200_f1": 0.41604564508616676,
+          "point_50_f1": 0.042151839776432234,
+          "point_150_f1": 0.3331392640894271,
+          "joint_50_f1": 0.0384257102934327,
+          "joint_150_f1": 0.30950163018164883
+        }
+      },
+      "valid_per_experiment": {
+        "experiment1": 3973,
+        "experiment2": 4000
+      },
+      "generation_protocol": {
+        "model": "MiniCPM-V-4_5",
+        "family": "minicpm",
+        "checkpoint": {
+          "repo": "openbmb/MiniCPM-V-4_5",
+          "revision": "14a2004908140699317e2109e90573c1e6323c36"
+        },
+        "dtype": "bfloat16",
+        "quantization": null,
+        "do_sample": false,
+        "output_budgets": {
+          "experiment1": 1536,
+          "experiment2": 768
+        },
+        "coordinate_policy": "paired_canvas_map",
+        "secondary_policy": "source_or_canvas_map",
+        "torch": "2.5.1+cu121",
+        "transformers": "4.57.1",
+        "source_sha256": {
+          "worker.py": "ffd7fd369f058ea49f665aac9c3da1641648cedc5e95b6b578d5d04c6f6d5059",
+          "adapters.py": "776ff68547b2beba28a07618334e3e0ebf6d0062ec7ec735ad0f3d3432a85fec",
+          "common.py": "e86801198a7092c54e7bc3e7d4514c86191c4a87c20fb4e6b70243eac38c8a97"
+        }
+      },
+      "parser_protocol": {
+        "version": "anchor_schema_compat_v1",
+        "sha256": "29aa39f1beef1e7584647b535f02cdd4c309b6a6f6e84c30f495c88af000afcb",
+        "scope": "experiment1 JSON field compatibility; experiment2 mapping unchanged",
+        "generation_protocol_unchanged": true
+      },
+      "event_table_sha256": "5d858507a590b057ee3cfa7a6bb3ef1d49c75d739dc99a24e383cbad25e3d3f7"
+    },
+    {
+      "model": "Molmo2-8B",
+      "completed_batches": 250,
+      "completed_requests": 8000,
+      "valid_outputs": 7881,
+      "metrics": {
+        "experiment1": {
+          "events": 4000,
+          "tp": 2832,
+          "fp": 2254,
+          "fn": 6038,
+          "micro_f1": 0.4058469475494411,
+          "exact": 0.17975
+        },
+        "experiment2": {
+          "events": 4000,
+          "time_f1": 0.6699645779894955,
+          "point_100_f1": 0.11921338707707341,
+          "point_200_f1": 0.2679858311957982,
+          "joint_100_f1": 0.10333455478197141,
+          "joint_200_f1": 0.22816660559423477,
+          "point_50_f1": 0.04067423964822279,
+          "point_150_f1": 0.1978746793697325,
+          "joint_50_f1": 0.035910589959692193,
+          "joint_150_f1": 0.17063637474044216
+        },
+        "experiment2_declared_space": {
+          "events": 4000,
+          "time_f1": 0.6699645779894955,
+          "point_100_f1": 0.16526200073286917,
+          "point_200_f1": 0.261267863686332,
+          "joint_100_f1": 0.14681812629778918,
+          "joint_200_f1": 0.22328081104189568,
+          "point_50_f1": 0.10651032124099181,
+          "point_150_f1": 0.20850128252107,
+          "joint_50_f1": 0.09771589104678148,
+          "joint_150_f1": 0.18065225357273726
+        }
+      },
+      "valid_per_experiment": {
+        "experiment1": 4000,
+        "experiment2": 3881
+      },
+      "generation_protocol": {
+        "model": "Molmo2-8B",
+        "family": "molmo",
+        "checkpoint": {
+          "repo": "allenai/Molmo2-8B",
+          "revision": "e28fa28597e5ec5e0cca2201dd8ab33d48bc4a1b"
+        },
+        "dtype": "bfloat16",
+        "quantization": null,
+        "do_sample": false,
+        "output_budgets": {
+          "experiment1": 1536,
+          "experiment2": 768
+        },
+        "coordinate_policy": "paired_canvas_map",
+        "secondary_policy": "source_or_canvas_map",
+        "torch": "2.6.0+cu124",
+        "transformers": "4.57.1",
+        "source_sha256": {
+          "worker.py": "ff03270565c4137e156c22c59a81c92d4fef76c36888dc292e623c24a51ff26e",
+          "adapters.py": "776ff68547b2beba28a07618334e3e0ebf6d0062ec7ec735ad0f3d3432a85fec",
+          "common.py": "e86801198a7092c54e7bc3e7d4514c86191c4a87c20fb4e6b70243eac38c8a97"
+        }
+      },
+      "parser_protocol": {
+        "version": "anchor_schema_compat_v1",
+        "sha256": "29aa39f1beef1e7584647b535f02cdd4c309b6a6f6e84c30f495c88af000afcb",
+        "scope": "experiment1 JSON field compatibility; experiment2 mapping unchanged",
+        "generation_protocol_unchanged": true
+      },
+      "event_table_sha256": "0ab33b7a89bdee5dd787f2d93dec0f5efa69d3c969c279227ad11d96c4baf545"
+    },
+    {
+      "model": "LLaVA-OneVision-2-8B-Instruct",
+      "completed_batches": 250,
+      "completed_requests": 8000,
+      "valid_outputs": 7753,
+      "metrics": {
+        "experiment1": {
+          "events": 4000,
+          "tp": 2547,
+          "fp": 2174,
+          "fn": 6323,
+          "micro_f1": 0.37480685747921416,
+          "exact": 0.15025
+        },
+        "experiment2": {
+          "events": 4000,
+          "time_f1": 0.6465622706141424,
+          "point_100_f1": 0.19867873746023978,
+          "point_200_f1": 0.4010276486420357,
+          "joint_100_f1": 0.1591632003914852,
+          "joint_200_f1": 0.3221189136285784,
+          "point_50_f1": 0.06520675311964766,
+          "point_150_f1": 0.30853927085882066,
+          "joint_50_f1": 0.052972840714460484,
+          "joint_150_f1": 0.24883777832150722
+        },
+        "experiment2_declared_space": {
+          "events": 4000,
+          "time_f1": 0.6465622706141424,
+          "point_100_f1": 0.09933936873011989,
+          "point_200_f1": 0.2794225593344752,
+          "joint_100_f1": 0.07988744800587227,
+          "joint_200_f1": 0.23305603131881575,
+          "point_50_f1": 0.029606068020552972,
+          "point_150_f1": 0.18754587717151947,
+          "joint_50_f1": 0.02324443356985564,
+          "joint_150_f1": 0.15683875703449962
+        }
+      },
+      "valid_per_experiment": {
+        "experiment1": 3995,
+        "experiment2": 3758
+      },
+      "generation_protocol": {
+        "model": "LLaVA-OneVision-2-8B-Instruct",
+        "family": "onevision",
+        "checkpoint": {
+          "repo": "lmms-lab-encoder/LLaVA-OneVision-2-8B-Instruct",
+          "revision": "878cde7e04fd962a6082951d8f83083a73fea588"
+        },
+        "dtype": "bfloat16",
+        "quantization": null,
+        "do_sample": false,
+        "output_budgets": {
+          "experiment1": 1536,
+          "experiment2": 768
+        },
+        "coordinate_policy": "paired_canvas_map",
+        "secondary_policy": "source_or_canvas_map",
+        "torch": "2.5.1+cu121",
+        "transformers": "5.9.0",
+        "source_sha256": {
+          "worker.py": "ffd7fd369f058ea49f665aac9c3da1641648cedc5e95b6b578d5d04c6f6d5059",
+          "adapters.py": "776ff68547b2beba28a07618334e3e0ebf6d0062ec7ec735ad0f3d3432a85fec",
+          "common.py": "e86801198a7092c54e7bc3e7d4514c86191c4a87c20fb4e6b70243eac38c8a97"
+        }
+      },
+      "parser_protocol": {
+        "version": "anchor_schema_compat_v1",
+        "sha256": "29aa39f1beef1e7584647b535f02cdd4c309b6a6f6e84c30f495c88af000afcb",
+        "scope": "experiment1 JSON field compatibility; experiment2 mapping unchanged",
+        "generation_protocol_unchanged": true
+      },
+      "event_table_sha256": "2413197544d0e2f588da373e295ae282e294fa364a9ce7122adf74092403bb2d"
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "completed_batches": 250,
+      "completed_requests": 8000,
+      "valid_outputs": 7974,
+      "metrics": {
+        "experiment1": {
+          "events": 4000,
+          "tp": 3520,
+          "fp": 2191,
+          "fn": 5350,
+          "micro_f1": 0.4828201083601948,
+          "exact": 0.2375
+        },
+        "experiment2": {
+          "events": 4000,
+          "time_f1": 0.6810019178241413,
+          "point_100_f1": 0.11588307084326147,
+          "point_200_f1": 0.263613645609345,
+          "joint_100_f1": 0.08984715522752368,
+          "joint_200_f1": 0.20607892136921022,
+          "point_50_f1": 0.03975126402045679,
+          "point_150_f1": 0.1924798047306329,
+          "joint_50_f1": 0.02975533213227175,
+          "joint_150_f1": 0.14773057476608356
+        },
+        "experiment2_declared_space": {
+          "events": 4000,
+          "time_f1": 0.6810019178241413,
+          "point_100_f1": 0.13076073690939735,
+          "point_200_f1": 0.33149299703609,
+          "joint_100_f1": 0.10995525077003546,
+          "joint_200_f1": 0.27372580926367174,
+          "point_50_f1": 0.04300575347242401,
+          "point_150_f1": 0.22990643342825595,
+          "joint_50_f1": 0.03417213924565584,
+          "joint_150_f1": 0.19062009647236589
+        }
+      },
+      "valid_per_experiment": {
+        "experiment1": 3974,
+        "experiment2": 4000
+      },
+      "generation_protocol": {
+        "model": "Qwen3.5-9B",
+        "family": "qwen35",
+        "checkpoint": {
+          "repo": "Qwen/Qwen3.5-9B",
+          "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+        },
+        "dtype": "bfloat16",
+        "quantization": null,
+        "do_sample": false,
+        "output_budgets": {
+          "experiment1": 1536,
+          "experiment2": 768
+        },
+        "coordinate_policy": "paired_canvas_map",
+        "secondary_policy": "source_or_canvas_map",
+        "torch": "2.5.1+cu121",
+        "transformers": "5.9.0",
+        "source_sha256": {
+          "worker.py": "ff03270565c4137e156c22c59a81c92d4fef76c36888dc292e623c24a51ff26e",
+          "adapters.py": "776ff68547b2beba28a07618334e3e0ebf6d0062ec7ec735ad0f3d3432a85fec",
+          "common.py": "e86801198a7092c54e7bc3e7d4514c86191c4a87c20fb4e6b70243eac38c8a97",
+          "qwen35_adapter.py": "511169bbe6507d8dd74ee6d42343b39dd195e634c744c2452499cf71acc0d70c"
+        }
+      },
+      "parser_protocol": {
+        "version": "anchor_schema_compat_v1",
+        "sha256": "29aa39f1beef1e7584647b535f02cdd4c309b6a6f6e84c30f495c88af000afcb",
+        "scope": "experiment1 JSON field compatibility; experiment2 mapping unchanged",
+        "generation_protocol_unchanged": true
+      },
+      "event_table_sha256": "73ddd68ec3c7c8dbc27e6a962e0dd3fea276ba7144b6cb45756ec80e6306f9cc"
+    }
+  ],
+  "historical_source_or_canvas_map": {
+    "Qwen3-VL-30B-A3B": {
+      "events": 4000,
+      "time_f1": 0.7347507842453816,
+      "point_50_f1": 0.02265597769257581,
+      "point_100_f1": 0.07819216916463342,
+      "point_150_f1": 0.157429998838155,
+      "point_200_f1": 0.27535726734053684,
+      "joint_50_f1": 0.017079121645172536,
+      "joint_100_f1": 0.06053212501452307,
+      "joint_150_f1": 0.12420123155571047,
+      "joint_200_f1": 0.22168002788428023
+    },
+    "Qwen3-VL-8B": {
+      "events": 4000,
+      "time_f1": 0.7461353082936578,
+      "point_50_f1": 0.048903779462763766,
+      "point_100_f1": 0.16117086933521427,
+      "point_150_f1": 0.30129900664197967,
+      "point_200_f1": 0.45800270381472996,
+      "joint_50_f1": 0.04196790689472756,
+      "joint_100_f1": 0.14365485217186857,
+      "joint_150_f1": 0.27120437312643275,
+      "joint_200_f1": 0.4130958678657497
+    },
+    "InternVL3-38B": {
+      "events": 4000,
+      "time_f1": 0.7329806406604267,
+      "point_50_f1": 0.06092669030870298,
+      "point_100_f1": 0.16696703680018607,
+      "point_150_f1": 0.2935875821173188,
+      "point_200_f1": 0.4055578164060229,
+      "joint_50_f1": 0.05313644555549096,
+      "joint_100_f1": 0.14196849020405786,
+      "joint_150_f1": 0.2460322074298006,
+      "joint_200_f1": 0.3407941398755886
+    }
+  },
+  "input_check": {
+    "projected_rows": 26422,
+    "events": 4000,
+    "projection_archive_exact_match": true,
+    "all_source_frames_present": true,
+    "source_manifest": "/workspace/usr3/TriModal-Referring/exam2/outputs_qwen3vl30b_2d_point_hybrid_v10/manifest/manifest_all.csv",
+    "source_manifest_sha256": "0749808274ce68b595daef5f456ea4497f416871cd54646302fca660df6b9d11"
+  }
+}
